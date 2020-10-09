@@ -1,7 +1,7 @@
 
   <h1 align="center">Note Taker App</h1>
     
-  (https://img.shields.io/badge/license-MIT License-blue.svg)<br />
+   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)<br />
   
   ## Description
    This Application allows the user to create save and delete notes all using express JS and deployed on Heroku
@@ -22,7 +22,7 @@
   
   
   ## License
-  (https://img.shields.io/badge/license-MIT License-blue.svg)
+   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)<br />
   <br />
   This application is covered by the MIT Licenselicense. 
   
