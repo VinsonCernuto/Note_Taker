@@ -1,7 +1,9 @@
 
   <h1 align="center">Note Taker App</h1>
-    
-   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)<br />
+   
+   https://note-taker-vinson-cernuto.herokuapp.com/notes
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)<br />
   
   ## Description
    This Application allows the user to create save and delete notes all using express JS and deployed on Heroku
@@ -15,7 +17,7 @@
   - [Questions](#questions)
   
   ## Installation
-  No installation required all deyployed on Heroku.
+  No installation required all deyployed on Heroku. https://note-taker-vinson-cernuto.herokuapp.com/notes
   
   ## Usage
   
