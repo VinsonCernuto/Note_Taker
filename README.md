@@ -12,7 +12,6 @@
   - [Usage](#usage)
   - [License](#license)
   - [Contributing](#contributing)
-  - [Tests](#tests)
   - [Questions](#questions)
   
   ## Installation
@@ -28,9 +27,6 @@
   
   ## Contributing
   Contact me with an question/recemedations with the provided info below.
- 
-  ## Tests
-  NA
   
   ## Questions
   undefined<br />
