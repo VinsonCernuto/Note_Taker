@@ -19,7 +19,9 @@
   No installation required all deyployed on Heroku.
   
   ## Usage
-  
+  <img src="Note_Taker\public\assets\Pictures\Capture.PNG">
+
+  <img src="Note_Taker\public\assets\Pictures\Gif_note_taker.gif">
   
   ## License
   (https://img.shields.io/badge/license-MIT License-blue.svg)
