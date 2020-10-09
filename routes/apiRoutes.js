@@ -1,33 +1,37 @@
-//link the route to json data
-let dbJson = require("../db/db.json");
+// Load Data
+let dbJSON = require("../db/db");
 
-//routes
+// Routes
 
 module.exports = function(app) {
-    //Get API notes
-    app.get("/api/notes", function(request, response){
-        response.json(dbJson);
-    });
+   //api for the notes
+   app.get("/api/notes", function(request, response) {
+      response.json(dbJSON);
+   });
 
-    //add new items to API when they are saved
-    app.post("/api/notes", function(request, response){
-        console.log("Data logged:");
-        console.log(response.req.body);
-        dbJson.push(response.req.body);
-        response.end("yes");
-    });
+   // adds new note to the api when they are saved
+   app.post("/api/notes", function(request, response) {
+      console.log("Post successful! Data logged:");
+      console.log(response.req.body);
+      dbJSON.push(response.req.body);
+      response.end("yes");
+   });
 
-    //deltes notes when trashcan is clicked
-    app.delete("/api/notes/:note", function(request, response){
-        console.log("Note deleted");
-        let newDbJSON = [];
-        const thisNoteID = request.params.note;
-        const noteToDelete = dbJson.map(note => {
-            if (note.id !== thisNoteID) {
-                newDbJSON.push(note);
-            }
-        });
+   // delete note when the trashcan icon is pressed
 
-        dbJson = newDbJSON;
-    });
+   app.delete("/api/notes/:note", function(request, response) {
+      console.log("Record deleted");
+      let newDbJSON = [];
+      const thisNoteID = request.params.note;
+      const noteToDelete = dbJSON.map(note => {
+         if (note.id !== thisNoteID) {
+            newDbJSON.push(note);
+         }
+      });
+
+      dbJSON = newDbJSON;
+
+      response.end();
+   });
 };
+
