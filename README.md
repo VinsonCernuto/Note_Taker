@@ -1,10 +1,12 @@
 
   <h1 align="center">Note Taker App</h1>
-    
-  (https://img.shields.io/badge/license-MIT License-blue.svg)<br />
+   
+   https://note-taker-vinson-cernuto.herokuapp.com/notes
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)<br />
   
   ## Description
-   This Application allows the user to create save and delete notes all using express JS and deployed on Heroku
+   This Application allows the user to create save and delete notes all using express JS and deployed on Heroku.
   
    ## Table of Contents
   - [Description](#description)
@@ -12,11 +14,10 @@
   - [Usage](#usage)
   - [License](#license)
   - [Contributing](#contributing)
-  - [Tests](#tests)
   - [Questions](#questions)
   
   ## Installation
-  No installation required all deyployed on Heroku.
+  No installation required all deyployed on Heroku. https://note-taker-vinson-cernuto.herokuapp.com/notes
   
   ## Usage
   <img src="Note_Taker\public\assets\Pictures\Capture.PNG">
@@ -24,15 +25,12 @@
   <img src="Note_Taker\public\assets\Pictures\Gif_note_taker.gif">
   
   ## License
-  (https://img.shields.io/badge/license-MIT License-blue.svg)
+   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)<br />
   <br />
   This application is covered by the MIT Licenselicense. 
   
   ## Contributing
   Contact me with an question/recemedations with the provided info below.
- 
-  ## Tests
-  NA
   
   ## Questions
   undefined<br />
