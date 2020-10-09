@@ -6,7 +6,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)<br />
   
   ## Description
-   This Application allows the user to create save and delete notes all using express JS and deployed on Heroku
+   This Application allows the user to create save and delete notes all using express JS and deployed on Heroku.
   
    ## Table of Contents
   - [Description](#description)
